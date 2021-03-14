@@ -1,0 +1,110 @@
+.divPai{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px;
+    padding: 3%;
+    background-color: white;
+    box-shadow:4px 4px 4px 4px grey;
+}
+
+.divBotoes{
+    width: 100%;   
+    text-align: right;
+}
+
+.btnCadPet{
+    background-color: #4EBDEA;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+.btnSair{
+    margin-left: 2%;
+    background-color: rgb(219, 45, 45);
+    width: 50px;
+    height: 30px;
+    color: white;
+    border: 0;
+    border-radius: 20px;   
+}
+
+.linkCadPet, .linkSair{
+    text-decoration: none;
+    color: white;
+}
+
+.linkVerMais{
+    text-decoration: none;
+    color: black;
+}
+
+.divLogo{
+    width: 100%;
+    height: 200px;
+    background-image: url('./bgulp.jpg');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.inputPesquisaTxt{
+    width: 100%;
+    padding: 1%;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.divVermais{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnVerMais{
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 20px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+/*--------------------*/
+/*ESTILO DO COMPONENTE*/
+/*--------------------*/
+
+.caixaConteudo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-top: 5%;
+}
+
+.caixaImagem{
+    background-color:gray;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.caixaInfo{
+    width:  100%;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 3%;
+    
+}
+
+.caixaInfoTipoAnimal{
+     display: flex;   
+}
