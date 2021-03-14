@@ -1,0 +1,134 @@
+.caixa-mae{
+    width: 800px;
+    overflow: hidden;
+    margin: 40px auto 40px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.caixa-mae-esquerda{
+    width: 50%;
+    height: 480px;
+    float: left;
+    background-color: white;
+}
+
+.caixa-mae-esquerda-logo{
+    width: 100%;
+    height: 90%;
+}
+
+.imagem-logo-login, .imagem-logo-register1, .imagem-logo-register2, .imagem-logo-registerPet1, .imagem-logo-registerPet2{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*IMAGEM DA TELA DE LOGIN*/
+.imagem-logo-login{
+    background-image: url('./bglp.jpg');
+}
+
+/*IMAGEM DA TELA DE REGISTRO DE USUARIO P1 P2*/
+.imagem-logo-register1, .imagem-logo-register2{
+    background-image: url('../registerUserP1/bgrup1p.jpg');
+}
+
+/*IMAGEM DA TELA DE REGISTRO DE PET P1 P2*/
+.imagem-logo-registerPet1, .imagem-logo-registerPet2{
+    background-image: url('../registerPetP1/bgrp1p.jpg');
+}
+
+
+
+/*INPUT DA TELA DE CADASTRO DE PET P1*/
+.txt-area{
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;
+    height: 300px;
+    max-height: 60px;
+    min-height: 60px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5%;
+    border: 0;
+}
+
+
+
+.caixa-mae-direita{
+    width: 50%;
+    height: 480px;
+    float: right;
+    background-color: royalblue;
+}
+
+.caixa-mae-direira-container{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    color: white;
+}
+
+.caixa-mae-direira-container-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.caixa-mae-direira-container-input input{
+    width: 80%;
+    height: 35px;
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 0;
+}
+
+#input-foto{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-mae-direira-container-links{
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: column; 
+    align-items: center;
+}
+
+.btnEntrar{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    border: 0;
+    background-color: tomato;
+}
+
+.link-cadastrar{
+    margin-top: 5%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .caixa-mae-direita{
+        width: 100%;
+        height: auto;
+        float: initial;
+    }
+    .caixa-mae-esquerda{
+        display: none;
+
+    }
+}
