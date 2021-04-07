@@ -31,6 +31,11 @@ Aplicação frontend para uma loja de adoção de animais de estimação, onde �
 - [x] Tela de usuário logado
 
 <h2>🎥 Demonstração da aplicação</h2>
+<h1 align="center">
+    <img alt="demo1" title="petfeliz 1" src="./src/pages/login/demo1.png" />
+    <img alt="demo2" title="petfeliz 2" src="./src/pages/login/demo2.png"/>
+    <img alt="demo3" title="petfeliz 3" src="./src/pages/login/demo3.png" />
+</h1>
 
 <h2>📀 Pré-requisitos e como rodar a aplicação</h2>
 1- Clone este repositório [$ git clone https://github.com/PatrickGuilherme/HappyPet]
